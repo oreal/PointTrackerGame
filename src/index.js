@@ -1,4 +1,4 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-ReactDOM.render(<p>Hello world!!!</p>, document.getElementById('root'));
+ReactDOM.render(<p>PointTracker Game!</p>, document.getElementById('root'));

@@ -1,0 +1,36 @@
+#newGame {
+	font-size: calc(10px + 2vw);
+}
+
+#playerInfo
+{
+	padding: 5vw;
+}
+
+#playerCount 
+{
+   padding:1em;
+}
+
+.savePlayerCount
+{
+	position: absolute;
+}
+
+.btn{
+width: calc(10px + 15vw);
+height: calc(15px + 5vw);
+font-size: calc(0.4em + 0.7vw);
+margin: 5px;
+}
+
+.createNewGameButton{
+	width: calc(50px + 16vw) !important;
+	height: calc(15px + 5vw);
+	font-size: calc(0.4em + 1vw);
+}
+
+.playerStats label 
+{
+	margin: 4px;
+}

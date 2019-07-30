@@ -21,7 +21,7 @@ class Player extends React.Component {
 	  }
 	  
 	   componentWillReceiveProps(props) {
-    	this.setState({ gameCreated: props.gameCreated })
+		this.setState({ gameCreated: props.gameCreated })
         }
 	   AddPoints(amount) 
 	  {
@@ -129,9 +129,8 @@ class GameBoard extends React.Component {
 
 	  exitGame() {
 		  this.setState({gameCreated: false});
-		   gameLaunched = false;
-		  ReactDOM.render(<GameBoard />, document.getElementById("gameBoardInfo"));
-		 
+		  gameLaunched = false;
+		  window.location.reload(false);	 
 	  }
       
 	  render() {

@@ -1,6 +1,7 @@
-# codemix-vanilla-react
-Template for project creation of React inside CodeMix
+# PointTracker
 
-## Contents
+PointTracker is a single page application made with React.js. 
 
-The template project is just an example Hello World that guide you through the use of React with the Expressjs framework to build a very simple web application that display the Hello World!!! Greeting
+It is currently published at: https://pointtracker.azurewebsites.net
+
+Project uses continuous integration as part of the development. 
